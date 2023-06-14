@@ -58,7 +58,7 @@ def func(message):
             bot.send_message(message.chat.id, text=f"Название фильма: {i[0]}\nСсылка: {i[1]}\nГод выпуска: {i[2]}\nКартинка: {i[3]}")
         else:
             bot.send_message(message.chat.id, text= "Фильм не найден")
-print(db_list)
+
 
 
 bot.polling(none_stop=True)
